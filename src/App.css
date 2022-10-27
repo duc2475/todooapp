@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+}
+.App-link {
+  color: #61dafb;
+}
+.title {
+  font-size: 5em;
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+h3 {
+  padding-top: 0.25em;
+}
+
+.vertical-timeline-element-content {
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+    0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+  padding: 2em 3em !important;
+}
+
+.date {
+  color: rgb(0, 0, 0);
+  
+}
+
+#description {
+  margin: 1.5em 0 2em 0;
+}
+
+.button {
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 100px;
+  margin-left: 10px;
+  width: auto;
+  height: auto;
+  color: white;
+}
+
+.workButton {
+  background-color: #1ce2ad;
+  border-color: aliceblue;
+}
+
+.workButton:hover {
+  background-color: #0ac593;
+}
+
+.schoolButton {
+  background-color: #f9c74f;
+  border-color: aliceblue;
+}
+
+.schoolButton:hover {
+  background-color: #f3bc3c;
+}
+.sportButton {
+  background-color: #d279a6;
+  border-color: aliceblue;
+}
+
+.sportButton:hover {
+  background-color: #d279a6;
+}
+/* .topbar{
+  text-align: center;
+  font-size: 1.5em;
+  background-color: #16b2eb;
+  text-underline-position:unset;
+} */
+/* .topbar :link{
+  padding-left: 10px;
+} */
+@media only screen and (max-width: 1700px) {
+  .vertical-timeline-element-date {
+    display: block !important;
+    float: none !important;
+    color: rgb(44, 44, 44);
+    margin-top: 1.5em;
+  }
+}
+/* .lameit{
+  padding-top: 20px;
+}
+.Login{
+  background-color: #9e47f5;
+} */
+h6{
+  border-style:solid;
+  border-color: rgb(251, 251, 251);
+  border-radius: 100px;
+  width: 150px;
+  height: 25px;
+  margin-left: 140px;
+  
+}
+.doneStatus {
+  background-color: #15ff00;
+}
+.inProgressStatus {
+  background-color: #ff0000;
+}
+.add-btn{
+  border: none;
+  width: 120px;
+  height: 120px;
+  border-radius: 100px;
+  background-color: rgb(251, 251, 251);
+}
